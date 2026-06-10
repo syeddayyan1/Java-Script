@@ -82,6 +82,11 @@ function multiply(a, b) {
     return a * b;
 }
 result = multiply(4, 5)
-console.log(" The number is", result )
+console.log(" The number is", result)
+
+
+
+
+
 
 

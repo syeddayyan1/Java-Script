@@ -6,17 +6,25 @@ console.log( arr[2])
 console.log(arr[3])
 console.log(arr.length)
 
-// convert in string propert
+
+let ar = [2, 3, 4, 5]
+ar[1] = 0
+console.log(ar)
+
+// convert in string property
 console.log(arr.toString())
 
-// arrah joint property
+// array joint property
 console.log(arr.join(" and "))
+
 
 // array me se value nikalna
 
 let array = [1, 2, 4,6,8,23]
 array.pop()
 console.log(array)
+
+
 
 //  Array me value dalna
 

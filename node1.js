@@ -1,5 +1,22 @@
 console.log("Hello World")
 
+
+// // user se input lena 
+
+// let name = prompt("Enter your name:");
+
+// // Greet the user
+// alert("Hello, " + name + "! Welcome!");
+
+
+
+
+let name = prompt("Enter  your name")
+alert ("Hello" +name+ "Welcome")
+
+
+
+
 // alert("Hey")
 
  var a = 16;

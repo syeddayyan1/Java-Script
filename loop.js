@@ -30,12 +30,24 @@
 
 
 //  While Loop
+
 // let i = 1;
 // while (i < 51) {
 //     console.log(i)
 //     i++;
 // }
 
+
+// let i = 1;
+// while (i < 51) {
+//     console.log(i)
+//     i++;
+// }
+
+let a;
+for (a = 1; a< 51; a++){
+    console.log(a)
+}
 
 
 //  let i = 1;
@@ -56,12 +68,12 @@
 
 
 
-for (let i = 1; i < 10; i++){
-    if (i % 2 != 0) {
-        console.log(i)
+// for (let i = 1; i < 10; i++){
+//     if (i % 2 != 0) {
+//         console.log(i)
         
-    }
-}
+//     }
+// }
 
 
 

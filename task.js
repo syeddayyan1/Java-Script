@@ -1,5 +1,4 @@
 // 1. Write a program that takes input a name from user & greet the users
-
 // let name = prompt("What is Your Name")
 // alert("Hello" + name)
 
@@ -294,15 +293,46 @@
 // (Hint: use translate.google.com to check the translation of
 // hello world in different languages)
 
-let language= prompt(" Enter Language Code")
-if (language == "en") {
-    alert("Hello, World")
-}
+// let language= prompt(" Enter Language Code")
+// if (language == "en") {
+//     alert("Hello, World")
+// }
 
-else if (language == "de") {
-    alert("Hallo, Welt")
-}
+// else if (language == "de") {
+//     alert("Hallo, Welt")
+// }
 
-else if (language == "es") {
-    alert("Hola, Mundo ")
-}
+// else if (language == "es") {
+//     alert("Hola, Mundo ")
+// }
+
+
+// 22. Write a program to take input a number & tell whether it’s a
+// positive or negative number.
+
+// let number = prompt(" Enter Number")
+// if (number > 0 ){
+//     alert("This number is Positive ")
+// }
+
+// else if (number < 0) {
+//     alert(" This Number is Negative ")
+// }
+
+
+
+// 23. The Pluralizer: Write a program that:
+// a. takes 2 inputs, a noun and a number.
+// b. tells the number and pluralized form, like "5 cats" or "1
+// dog".
+// Run the program for a few different inputs and show the result
+// to make sure it works.
+
+let num = prompt(" Enter Number")
+let noun = prompt(" Enter Noun")
+alert( + num + "  "   +noun)
+
+
+
+
+

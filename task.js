@@ -1,6 +1,10 @@
 // 1. Write a program that takes input a name from user & greet the users
+
+
 // let name = prompt("What is Your Name")
 // alert("Hello" + name)
+
+// ----------------------------------------------------------------------------------------
 
 
 
@@ -12,6 +16,8 @@
 
 // }
 
+// ----------------------------------------------------------------------------------------
+
 
 
 // 3. Write a program to take “city” name as input from user.If user enters “Karachi”,
@@ -22,8 +28,7 @@
 //     alert(" Welcome to city of lights")
 // }
 
-
-
+// ----------------------------------------------------------------------------------------
 
 
 
@@ -39,6 +44,8 @@
 // {
 //     alert(" Good Morning Ma'am ")
 // }
+
+// ----------------------------------------------------------------------------------------
 
 
 //5.  Write a program to take input color of road traffic signal from the user & show the message according to this
@@ -59,6 +66,8 @@
 //     alert("vehicles can move now ")
 // }
 
+// ----------------------------------------------------------------------------------------
+
 
 // 6.  Write a program to take input max age & current age from user. If the current age is less than or equal to max age,
 // the message “You are welcome”
@@ -70,6 +79,8 @@
 //     alert("Your'e Welcome")
 // }
 
+// ----------------------------------------------------------------------------------------
+
 
 // 7. Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less
 //  than 0.25litres, show the message “Please refill the fuel in your car”
@@ -79,7 +90,7 @@
 //     alert("Please refill the fuel in your car")
 // }
 
-
+// ----------------------------------------------------------------------------------------
 
 
 // 8. Write a program to take input the marks obtained in three subjects & total marks. Compute
@@ -109,7 +120,7 @@
  
 //  }
 
-
+// ----------------------------------------------------------------------------------------
 
 // 10. Write a program to implement checkout process of a shopping cart system for an e-commerce website. Take input from users,
 //  the following:  a. Name of item1  b. Name of item2 c. Price of item 1 d. Price of item 2 e. Ordered quantity of item 1
@@ -151,6 +162,7 @@
 //     alert("Wrong Answer")
 // }
 
+// ----------------------------------------------------------------------------------------
 
 // 12. Write a program to check whether the given number is divisible by 3. Show the message to
 // the user if the number is divisible by 3.
@@ -164,7 +176,7 @@
 //     alert("This number is not divisible by 3")
 //  }
 
-
+// ----------------------------------------------------------------------------------------
 
 // 13. Names & Total scores of two teams are taken as input. Write
 // a program that shows which team has won the game or show if
@@ -186,6 +198,8 @@
 // }
 
 
+// ----------------------------------------------------------------------------------------
+
 // 15. Write a program that checks whether the given input is an
 // even number or an odd number.
 
@@ -199,6 +213,8 @@
 //     alert(" Given Number is Odd Number")
 // }
 
+
+// ----------------------------------------------------------------------------------------
 
 // 16. Weather in Karachi nowadays is too cool, write a program
 // that takes temperature as input and shows a message based on
@@ -225,6 +241,8 @@
 //     alert(" OMG! Today weather is so cool")
 // }
 
+// ----------------------------------------------------------------------------------------
+
 
 // 18. Write a program that takes user input day name. If the day is
 // Monday, Tuesday, Wednesday, Thursday or Friday, then show
@@ -246,6 +264,8 @@
 // }
 
 
+// ----------------------------------------------------------------------------------------
+
 
 // 19. Write a program that takes input user’s score, if it’s greater
 // than 50, say “You are passed”. Otherwise, show “Try again!”
@@ -258,6 +278,8 @@
 // else {
 //     alert(" Try again")
 // }
+
+// ----------------------------------------------------------------------------------------
 
 
 //  20. Write a program that:
@@ -285,6 +307,9 @@
 
 
 
+// ----------------------------------------------------------------------------------------
+
+
 // 21. The Translator:
 // Write a program that:
 // a. takes 1 input, a language code (e.g. "es", "de", "en")
@@ -307,6 +332,9 @@
 // }
 
 
+// ----------------------------------------------------------------------------------------
+
+
 // 22. Write a program to take input a number & tell whether it’s a
 // positive or negative number.
 
@@ -319,6 +347,8 @@
 //     alert(" This Number is Negative ")
 // }
 
+
+// ----------------------------------------------------------------------------------------
 
 
 // 23. The Pluralizer: Write a program that:
@@ -333,6 +363,8 @@
 // alert( + num + "  "   +noun)
 
 
+
+// ----------------------------------------------------------------------------------------
 
 
 
@@ -352,6 +384,8 @@
 //     alert( inp+ " is " +typeof(inp))
 // }
 
+
+// ----------------------------------------------------------------------------------------
 
 
 // 17. Write a program to create a calculator for +,-,*, / & % using if
@@ -387,7 +421,7 @@ else if (operator == "/") {
 
 
 
-
+// ----------------------------------------------------------------------------------------
 
 
 

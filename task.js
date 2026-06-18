@@ -328,9 +328,36 @@
 // Run the program for a few different inputs and show the result
 // to make sure it works.
 
-let num = prompt(" Enter Number")
-let noun = prompt(" Enter Noun")
-alert( + num + "  "   +noun)
+// let num = prompt(" Enter Number")
+// let noun = prompt(" Enter Noun")
+// alert( + num + "  "   +noun)
+
+
+
+
+
+// 14. Take a string, a number and a Boolean in three variables.
+// Write a program that checks the type of variables & responds
+// accordingly
+
+
+// let inp = prompt("Enter Value")
+// alert(typeof(inp))
+
+let inp = prompt("Enter Value")
+if (!isNaN(inp)) {
+    alert( inp+ " is Number")
+}
+else {
+    alert( inp+ " is " +typeof(inp))
+}
+
+
+
+
+
+
+
 
 
 

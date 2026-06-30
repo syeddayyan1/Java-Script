@@ -73,20 +73,20 @@
 //   Math.random kuch bh random vlue ladeta he
 // Math.floor value ko decimal se hata deta he
 
-// let boxes = document.getElementsByClassName("box")
+let boxes = document.getElementsByClassName("box")
 
-// function randomcolor() {
-//     let r = Math.floor(Math.random() * 233)
-//     let g = Math.floor(Math.random() * 254)
-//     let b = Math.floor(Math.random() * 222)
+function randomcolor() {
+    let r = Math.floor(Math.random() * 233)
+    let g = Math.floor(Math.random() * 254)
+    let b = Math.floor(Math.random() * 222)
     
-//     return `rgb(${r}, ${g} , ${b})`;
-// }
+    return `rgb(${r}, ${g} , ${b})`;
+}
 
-// for (i = 0; i < boxes.length; i++){
-//     boxes[i].style.backgroundColor = randomcolor();
-//     boxes[i].style.color = randomcolor();
-// }
+for (i = 0; i < boxes.length; i++){
+    boxes[i].style.backgroundColor = randomcolor();
+    boxes[i].style.color = randomcolor();
+}
 
 
 // --------------------------------------------------------------------------------------

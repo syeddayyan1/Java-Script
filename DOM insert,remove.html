@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawa script Dom </title>
+
+    <style>
+
+/*         
+        .box{
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid black;
+          
+        } */
+    </style>
+</head>
+<body>
+
+    <div class="containar blue">
+           <div class="box" style="display: flex;" data-createdby="Dayyan">
+            Hello I'm Dayyan</div>
+
+
+
+           <script>
+
+           
+
+                //   insert Elemetn in html
+
+    // let div=document.createElement("div")
+    // div.innerText="Hey I am Ali"
+    // div.setAttribute("class", "created")
+    // document.querySelector(".containar").after(div)
+
+    
+        let ali= document.querySelector(".containar")
+        ali.insertAdjacentText("beforebegin", " I am ali and my real name is dayyan")
+
+
+        /////////////////////////////////////////////////////////////////
+
+
+//   remove Element in html
+
+      document.querySelector(".box").remove()
+
+      /////////////////////////////////////////////
+
+    // check class name
+    // document.querySelector(".containar").className
+
+    ////////////////////////////////////////////////////////
+
+    //   add class name
+    //   document.querySelector(".containar").classList.add("dayyan")
+
+    ///////////////////////////////////////////////////////////////
+
+    //  Remove class name
+
+    // document.querySelector(".containar").classList.remove("blue")
+
+    //////////////////////////////////////////////////////////////
+
+    // change inner Text
+    // document.querySelector(".containar").innerText= "SYED DAYYAN"
+
+    /////////////////////////////////////////////////////////////////
+      
+  </script>
+    </div> 
+
+
+</body>
+</html>

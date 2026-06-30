@@ -65,6 +65,20 @@ function dbl() {
 }
 
 
+function keyboard() {
+    alert("Key Press")
+}
+
+function inp() {
+    alert("Input Changed")
+    // document.getElementById("focus").style.border="2px solid red"
+}
+
+
+function sub() {
+    alert(" Thansk Form Submited Succesfully")
+}
+
 
 
 

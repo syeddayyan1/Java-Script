@@ -11,6 +11,15 @@
         cursor: pointer;
         background: #ff6969;
     }
+
+    button{
+        
+        margin: 5px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 4px;
+
+    }
 </style>
 <body>
 
@@ -19,7 +28,89 @@
     </div>
 
     <button id="btn"> Change Content</button>
-    
+
+
+    <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- <B> Property Of Events 
+        1) Mouse Event
+        2) Keyboard Event
+    </B> -->
+
+
+        <!-- This is Mouse Event 
+       1) Click 2) dblclick 3) mousedown 4) mouseup 5) mouse enter 
+       6) mouse leave 7)mouse over 8) mouse out 9) mouse move -->
+
+    <button onclick="hello()"> Click Me </button>
+
+     <!-- ////////////////////////////////////////////////////////////////// -->
+
+     <button ondblclick="dbl()">  Double Click Me </button>
+
+      <!-- ////////////////////////////////////////////////////////////////// -->
+
+     <!-- mousedown Event
+     mousedown event jaise hi mouse ka button dabaya jata hai, usi waqt chal jata hai. -->
+
+     <button onmousedown=" hello()"> On Mouse Down</button>
+
+      <!-- ////////////////////////////////////////////////////////////////// -->
+
+     <!-- mouseup Event
+     mouseup event tab chalta hai jab user mouse ka button chhor (release) deta hai. -->
+
+     <button onmouseup="hello()"> Mouse Up Button</button>
+
+     <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+     <!-- mouseenter Event
+     mouseenter event tab chalta hai jab mouse pointer kisi element ke andar enter karta hai. -->
+
+     <button onmouseenter="hello()"> Hover Me</button>
+
+    <!-- ////////////////////////////////////////////////////////////////// -->
+
+      <!-- mouseleave Event
+    mouseleave event tab chalta hai jab mouse pointer kisi element se bahar nikalta hai. -->
+
+     <button onmouseleave="hello()"> Mouse Leave</button>
+
+       <!-- ////////////////////////////////////////////////////////////////// -->
+
+       <!-- Mouse Over Event
+       mouseover event tab chalta hai jab mouse pointer kisi element ya uske
+       child element ke upar aata hai. -->
+
+       <button onmouseover="hello()"> I am Mouse Over</button>
+
+       <!-- ////////////////////////////////////////////////////////////-->
+
+
+       <!-- mouseout Event
+       mouseout event tab chalta hai jab mouse pointer kisi element ya uske
+       child element se bahar nikalta hai. -->
+
+       <button onmouseout="hello()"> Mouse Out</button> 
+
+       <!-- ///////////////////////////////////////////////////////////////-->
+
+       <!-- mousemove Event 
+       mousemove event tab chalta rehta hai jab mouse pointer kisi
+       element ke upar move karta hai. -->
+
+       <button onmousemove="hello()"> Mouse Move </button>
+
+       <!-- /////////////////////////////////////////////////////////////////////////-->
+        <!-- ----------------------------------------------------------------------- -->
+
+        
+
+        <!-- Keyboard Event -->
+       
+
 
     <script src="event.js"></script>
 </body>

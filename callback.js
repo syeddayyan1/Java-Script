@@ -156,19 +156,37 @@
 // Food ready hone ke baad ek message/result callback ko bhejo.
 // Callback function us message ko receive karke console mein print kare.
 
-function start(result) {
-    console.log(result)
-}
+// function start(result) {
+//     console.log(result)
+// }
 
-function orderFood(call) {
-    console.log("Order Start")
-    let a = "Your Food is ready Now"
-    call(a)
+// function orderFood(call) {
+//     console.log("Order Start")
+//     let a = "Your Food is ready Now"
+//     call(a)
     
-}
+// }
 
-orderFood(start)
+// orderFood(start)
 
 
 // -------------------------------------------------------------
 
+
+// kam same but diifrent methode on Promises
+
+
+function greet() {
+    console.log("Done");
+}
+
+function start(callback) {
+    console.log("processing...");
+    setTimeout(() => {
+        callback();
+    }, 2000);
+}
+
+start(greet);
+
+// ---------------------------------------------------------------------------

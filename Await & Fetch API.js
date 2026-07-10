@@ -79,6 +79,7 @@
 
 // getUsers();
 
+// -----------------------------------------------------------------------
 
 async function getData() {
 
@@ -105,3 +106,31 @@ async function main() {
 
 
 main();
+
+
+
+// --------------------------Error Handling--------------------------
+ 
+
+
+// async function getData() {
+     
+//     try {
+
+//        let response = await fetch("https://jsonplaceholder.typicode.com/users")
+//        let result = await response.json();
+//        console.log(result)
+        
+//     }
+
+//     catch{
+//         console.log("Something is Wrong")
+//     }
+     
+// }
+
+// getData();
+ 
+
+
+

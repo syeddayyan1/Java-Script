@@ -1,55 +1,107 @@
-async function getData() {
+//  async function getdata() {
     
-    return new Promise((resolve, reject) => {
-        
-        setTimeout((e) => {
-            resolve(455)
-        }, 3000)
+//     return new Promise((resolve, reject) => {
+//         setTimeout((e) => {
+//             resolve(455)
+//         }, 3000)
+//     })
 
-    })
+// }
 
+//  async function main() {
+//     console.log("Hello")
+//     console.log("Dayyan")
+//     console.log("Noor")
+
+//      let data = await getdata()
+//      console.log(data)
+//      console.log("Program")
+//      console.log("Run")
+    
+// }
+
+// main();
+ 
+
+// ---------------------------------------------------------------------
+
+
+// // ye then wala option he jo ke use nh hota he ab zyda tar
+
+// // console.log("Loading Moduels")
+// // console.log("DO Something Else")
+// // console.log("Load Data")
+
+// // let data = getData()
+
+// // data.then((e) => {
+// //     console.log(data)
+// //     console.log("3sec")
+// //     console.log("Baad aajeyga")
+// // })
+
+
+// ---------------------------------------------------------------------
+
+
+
+//  async function loginUser() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout((e) => {
+//             resolve("Login Successfull")
+//         },3000)
+//     })
+// }
+
+
+//  async function main() {
+//     console.log("Checking User.....")
+
+//     let data =  await loginUser();
+//      console.log(data)
+//      console.log("welcome to Dashboard")
+// }
+
+// main();
+ 
+// ---------------------------------------------------------------------
+
+
+
+//  -------------------FETCH API-------------------------------------------------
+
+// async function getUsers() {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/users");
+//      let data = await response.json();
+
+//     console.log(data);
+// }
+
+// getUsers();
+
+
+async function getData() {
+
+    let response = await fetch("https://jsonplaceholder.typicode.com/users")
+    
+    let result = await response.json();
+    
+    return result
+    
 }
 
-     async function main() {
-        
-        console.log("Hello")
-        console.log("I am ")
-        console.log(" Async Await")
+async function main() {
+    console.log("Hello")
+    console.log("Dayyan")
 
-        let data = await getData()
-        console.log(data)
+    let result = await getData();
+    console.log(result)
 
-         console.log("Load")
-        console.log("code")
-        console.log("runed")
-
-    }
+    console.log("Runed")
+    console.log("Noor")
+    console.log("OKayy")
+    
+}
 
 
 main();
- 
-
-
-
-
-// ye then wala option he jo ke use nh hota he ab zyda tar
-
-// console.log("Loading Moduels")
-// console.log("DO Something Else")
-// console.log("Load Data")
-
-// let data = getData()
-
-// data.then((e) => {
-//     console.log(data)
-//     console.log("3sec")
-//     console.log("Baad aajeyga")
-// })
-
-
-
-
-
-
-
- 

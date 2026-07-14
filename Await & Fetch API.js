@@ -81,33 +81,31 @@
 
 // -----------------------------------------------------------------------
 
-async function getData() {
+// async function getData() {
 
-    let response = await fetch("https://jsonplaceholder.typicode.com/users")
+//     let response = await fetch("https://jsonplaceholder.typicode.com/users")
     
-    let result = await response.json();
+//     let result = await response.json();
     
-    return result
+//     return result
     
-}
+// }
 
-async function main() {
-    console.log("Hello")
-    console.log("Dayyan")
+// async function main() {
+//     console.log("Hello")
+//     console.log("Dayyan")
 
-    let result = await getData();
-    console.log(result)
+//     let result = await getData();
+//     console.log(result)
 
-    console.log("Runed")
-    console.log("Noor")
-    console.log("OKayy")
+//     console.log("Runed")
+//     console.log("Noor")
+//     console.log("OKayy")
     
-}
+// }
 
 
-main();
-
-
+// main();
 
 // --------------------------Error Handling--------------------------
  
@@ -131,6 +129,34 @@ main();
 
 // getData();
  
+
+// ---------------------------------------------------------------------------
+
+ async function start() {
+     let result = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+     let data = await result.json();
+     return data
+}
+
+
+
+    async function main() {
+        console.log("Hello Buddy")
+    
+    try {
+
+    let data = await start()
+    console.log(data)
+    console.log("yaaahhoooo")
+        
+        }
+           catch {
+        console.log("Something is wrong")
+    }
+
+    }
+
+main();
 
 
 

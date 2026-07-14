@@ -118,14 +118,41 @@
 
 //  kam same but diifrent methode on Promises
 
-let promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-     console.log("processsing")
-      resolve("Done")
-    }, 2000);
+// let promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//      console.log("processsing")
+//       resolve("Done")
+//     }, 2000);
     
+// })
+
+// promise.then((name) => {
+//   console.log(name);
+// });
+
+
+
+let promises = new Promise((resolve, reject) => {
+
+   async function getdata(){
+    let response = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+  let data = await response.json()
+  console.log(data)
+ resolve("Done")
+
+  }
+
+  
+getdata()
 })
 
-promise.then((name) => {
-  console.log(name);
-});
+
+
+promises.then((a) => {
+  console.log(a)
+})
+
+promises.catch((err) => {
+  console.log(err)
+})
+

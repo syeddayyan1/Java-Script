@@ -190,34 +190,88 @@
 // dsre class ke liye dusra class bana kr uske ander uska methode rkahna .....
 
 
-class product{
-    constructor(name, price, stock) {
-        this.name = name
-        this.price = price
-        this.stock= stock
-    }
+// class product{
+//     constructor(name, price, stock) {
+//         this.name = name
+//         this.price = price
+//         this.stock= stock
+//     }
 
-    showproduct() {
-        console.log("Mobile Name is " , this.name)
-        console.log("Mobile Price is " , this.price)
-        console.log("Mobile Stock is " , this.stock)
-    }
+//     showproduct() {
+//         console.log("Mobile Name is " , this.name)
+//         console.log("Mobile Price is " , this.price)
+//         console.log("Mobile Stock is " , this.stock)
+//     }
 
-    buyproduct(quintity) {
+//     buyproduct(quintity) {
 
-        if (this.stock >= quintity) {
-            console.log("Our stoke is available") 
-        }
-        else {
-             console.log("Our stoke is not available") 
-        }
+//         if (this.stock >= quintity) {
+//             console.log("Our stoke is available")
+//         }
+//         else {
+//              console.log("Our stoke is not available")
+//         }
         
         
+//     }
+// }
+
+
+// let data = new product("Infinix", 20000, 8)
+// data.showproduct()
+// data.buyproduct(3)
+
+
+
+// // ----------------------------- Polymorphisim ------------------------------------------
+// Polymorphism ka kaam ye he ke methode bhalle same rakhlo pr saboo ke result change aae
+
+
+
+class animal{
+
+    sound() {
+        console.log("Animal can Sleep")
+        console.log("Animal can make sound")
     }
 }
 
 
-let data = new product("Infinix", 20000, 8)
-data.showproduct()
-data.buyproduct(3)
+class dog extends animal{
+    sound() {
+        console.log("Dog Bark krta he")
+    }
+}
 
+class cat extends animal{
+    sound() {
+        console.log("Cat is Meawoo")
+    }
+}
+
+
+let Dog = new dog()
+let Cat = new cat()
+
+
+
+Dog.sound()
+Cat.sound()
+
+
+
+// Abstraction → ✅ clear
+
+// User ko sirf kaam dikhana, process hide karna.
+
+// Inheritance → ✅ clear
+
+// Parent ki properties/methods child me reuse karna.
+
+// Encapsulation → ✅ clear
+
+// Data + methods ko ek class ke andar rakhna.
+
+// Polymorphism → ✅ clear
+
+// Same method, different behavior.
